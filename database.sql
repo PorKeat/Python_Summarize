@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS summaries (
+    id SERIAL PRIMARY KEY,
+    url TEXT NOT NULL,
+    summary TEXT NOT NULL
+);
